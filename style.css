@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url("img/1329177.png");
+    background-size: 1800px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121212; opacity: 80%;
+    height: 80px;
+    border-bottom: 3px solid rgb(96, 2, 2);
+}
+.logo{
+    height: 120px; 
+}
+
+a{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid rgb(96, 2, 2);
+    padding: 3px;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    margin-bottom: 48px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 600px;
+}
+h2{
+    font-family: 'Righteous', sans-serif;
+    line-height: 40px;
+    font-size: 50px;
+    color: rgb(96, 2, 2);
+    -webkit-text-stroke: 0.3px rgb(6, 6, 6);
+}
+.principal{
+    font-family: 'Sarala', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;  
+    color: rgb(248, 247, 247); 
+    -webkit-text-stroke: 0.3px white; 
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    height: 300px;
+    margin-left: 50px;
+}
+
+.rodape{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -webkit-text-stroke: 0.5 rgb(0, 0, 0);
+    gap: 32px;
+    align-items: end;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
